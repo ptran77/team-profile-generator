@@ -1,0 +1,8 @@
+#team-container {
+  margin: 50px 300px 50px 300px;
+  justify-content: space-evenly;
+}
+
+.profile {
+  box-shadow: 3px 3px gray;
+}
