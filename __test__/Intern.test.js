@@ -21,7 +21,7 @@ test("gets Intern's id", () => {
   expect(intern.getId()).toEqual('1');
 })
 
-test("gets Intern's id", () => {
+test("gets Intern's email", () => {
   const intern = new Intern('Dave','1','dave@fakemail.com', 'fakeUniversity')
   
   expect(intern.getEmail()).toEqual('dave@fakemail.com');

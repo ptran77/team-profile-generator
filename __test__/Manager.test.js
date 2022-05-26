@@ -21,7 +21,7 @@ test("gets Manager's id", () => {
   expect(manager.getId()).toEqual('1');
 })
 
-test("gets Manager's id", () => {
+test("gets Manager's email", () => {
   const manager = new Manager('Dave','1','dave@fakemail.com', '1')
   
   expect(manager.getEmail()).toEqual('dave@fakemail.com');

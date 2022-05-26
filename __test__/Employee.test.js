@@ -20,7 +20,7 @@ test("gets employee's id", () => {
   expect(employee.getId()).toEqual('1');
 })
 
-test("gets employee's id", () => {
+test("gets employee's email", () => {
   const employee = new Employee('Dave','1','dave@fakemail.com')
   
   expect(employee.getEmail()).toEqual('dave@fakemail.com');
